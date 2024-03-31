@@ -1,0 +1,282 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+  font-size: 1.2rem;
+}
+
+.navbar{
+    background: orange;
+
+
+}
+.navbar ul{
+    display: contents;
+    list-style: none;
+}
+
+.navbar ul li a{
+    padding: 5px;
+ }
+
+
+.navbar ul li a{
+   text-decoration: none;
+   color: whitesmoke;
+}
+
+
+.logos{
+    -webkit-text-stroke-width: 2px;
+    font-size: 1.2rem;
+    text-align: center;
+    
+}
+.NavS{
+    padding: 30%;
+    margin-top: -29%;
+    padding-bottom: 0px;
+}
+
+.NavS ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.NavS li{
+    list-style: none;
+}
+
+.NavS ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#Responsive{
+    width: 100%;
+  height: auto;
+}
+
+.Homesec{
+    width: 50%;
+    position: absolute;
+    bottom: 21px;
+    right: 166px;
+    color: white;
+}
+
+.Home-content{
+    text-align: center;
+    padding: 40px;
+    font-size: 1.2rem;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: lightblue;
+    position: relative;
+    transform: rotate(45deg); /* rotate the circle */
+  }
+
+
+
+  .HomeAnimation{
+    display: flex;
+    background-color: rgb(218, 218, 218);
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 8%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: whitesmoke;
+    justify-content: space-around;
+  }
+
+  .HomeAnimation p{
+    width: 55%;
+  }
+
+  .circle img{
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    top: 21%;
+    left: 19%;
+    transform: rotate(315deg);
+  }
+
+  .img-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .mainD{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .about{
+    background-color: rgb(218, 218, 218);
+
+  }
+  .about-cont{
+    display: flex;
+  }
+
+  .about-cont .abo{
+ padding: 5%;
+ padding-top: 0%;
+ padding-right: 0%;
+  }
+
+  .SD{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .cardtext{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2%;
+    padding-left: 10%; padding-right: 10%;
+  }
+
+
+  .lastsection{
+    background-color: rgb(74, 74, 241);
+    color: white;
+    margin-top: 5%;
+    font-size: 1.2rem;
+  }
+  #But{
+    width: 50%;
+    font-size: 1.2rem;
+  }
+  .lastsection h6 svg{
+    color: white;
+  }
+
+  #padin{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 1.2rem;
+  }
+
+  .lastsection button{
+    font-size: 1.2rem;
+  }
+
+  .footer{
+    margin-top: 5%;
+    background-color: black;
+    color: white;
+  }
+
+  .card{
+    border-style: none;
+  }
+.cardtext h6{
+  font-size: 3.2rem;
+}
+
+
+  
+ .footerT {
+  background-color: rgb(80, 80, 80);
+    display: flex;
+    color: white;
+    padding: 3%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .footer-animation {
+    display: flex;
+    
+  }
+
+  .fotr{
+text-align: center;    
+padding: 2%;
+  }
+
+  @media only screen and (max-width:375px) {
+    .Homesec {
+      width: 50%;
+      position: absolute;
+      bottom: 20px;
+      right: 149px;
+      color: white;
+      /* top: 263px; */
+      font-size: 13px;
+      top: 90%;
+  
+  }
+
+  #cirldiv{
+    text-align: -webkit-center;
+  }
+
+  .about-cont {
+    display: flex;
+    flex-wrap: wrap;
+}
+   
+  }
+
+  #cirldiv{
+    text-align: -webkit-center;
+  }
+
+  .ou{
+    color: darkgray;
+  }
+
+  @media only screen and (max-width:500px) {
+    .Homesec {
+      /* width: 50%;
+      position: absolute;
+      bottom: 21px;
+      right: 166px;
+      color: white; */
+
+
+      font-size: 13px;
+    top: 43%;
+    left: 12%;
+  }
+  .about-cont {
+    display: flex;
+    flex-wrap: wrap;
+}
+  }
+
+  @media only screen and (max-width:1341px) {
+    .Homesec {
+      width: 50%;
+      position: absolute;
+      bottom: 21px;
+      right: 166px;
+      color: white;
+      top: 42%;
+  }
+
+  }
+
+
+  
